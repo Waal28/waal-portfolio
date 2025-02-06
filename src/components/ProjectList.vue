@@ -82,7 +82,7 @@
   </ModalDialog>
 </template>
 <script setup>
-import { onMounted, ref } from 'vue';
+import { watch, ref } from 'vue';
 import { projects } from '../utils/constant';
 import ModalDialog from './general/ModalDialog.vue';
 import CarouselComp from './general/CarouselComp.vue';
@@ -99,11 +99,16 @@ function openModal(project) {
   isOpen.value = true;
 }
 
-onMounted(() => {
-  setTimeout(() => {
-    show.value = true;
-  }, 1000);
-});
+watch(
+  () => mainStore.isLoading,
+  async (newIsLoading, oldIsLoading) => {
+    if (newIsLoading === false) {
+      setTimeout(() => {
+        show.value = true;
+      }, 1000);
+    }
+  }
+);
 </script>
 <style scoped>
 /* Animasi masuk */
