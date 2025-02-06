@@ -1,7 +1,5 @@
 <template lang="">
-  <span class="loader font-emilysCandy sm:text-8xl text-[18vw] tracking-widest"
-    >Loading</span
-  >
+  <span class="loader font-emilysCandy lg:text-8xl text-[18vw] tracking-widest">Loading</span>
 </template>
 <script></script>
 <style>

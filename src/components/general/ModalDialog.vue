@@ -6,19 +6,15 @@
       @click.self="closeModal"
     >
       <div
-        class="bg-[url('/paper_bg.jpg')] bg-repeat bg-contain rounded-2xl shadow-lg w-full sm:max-w-[80vw] max-w-[90vw] sm:p-10 p-4"
+        class="bg-[url('/paper_bg.jpg')] bg-repeat bg-contain rounded-2xl shadow-lg w-full lg:max-w-[80vw] max-w-[90vw] lg:p-10 p-4"
       >
-        <div
-          class="flex justify-between items-center border-b border-gray-500 sm:pb-3 pb-2"
-        >
-          <h2
-            class="sm:text-4xl text-xs font-semibold font-sancreek tracking-wide"
-          >
+        <div class="flex justify-between items-center border-b border-gray-500 lg:pb-3 pb-2">
+          <h2 class="lg:text-4xl text-xs font-semibold font-sancreek tracking-wide">
             {{ title }}
           </h2>
           <button
             @click="closeModal"
-            class="text-gray-500 hover:text-gray-800 font-sans sm:text-3xl text-xl"
+            class="text-gray-500 hover:text-gray-800 font-sans lg:text-3xl text-xl"
           >
             &times;
           </button>

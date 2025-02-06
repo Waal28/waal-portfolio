@@ -11,9 +11,7 @@ const mainStore = useMainStore();
 </script>
 
 <template>
-  <div
-    class="bg-[url('/paper_bg.jpg')] bg-repeat bg-contain sm:min-h-auto min-h-screen relative"
-  >
+  <div class="bg-[url('/paper_bg.jpg')] bg-repeat bg-contain lg:min-h-auto min-h-screen relative">
     <NavbarComp />
     <MainHero />
     <ProjectList />

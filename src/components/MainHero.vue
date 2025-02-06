@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="container mx-auto relative"
-    id="introduction"
-    style="scroll-margin-top: 90px"
-  >
+  <div class="container mx-auto relative" id="introduction" style="scroll-margin-top: 90px">
     <img
       src="../assets/images/lion_vintage.png"
       alt="..."
@@ -12,36 +8,36 @@
     />
     <div
       v-if="displayedText[0]"
-      class="absolute sm:top-[5%] sm:left-[18%] top-[3%] left-[18%] w-fit h-fit bg-black flex items-center justify-center sm:px-5 sm:py-2 px-2 py-1"
+      class="absolute lg:top-[5%] lg:left-[18%] top-[3%] left-[18%] w-fit h-fit bg-black flex items-center justify-center lg:px-5 lg:py-2 px-2 py-1"
     >
       <h1
-        class="sm:text-8xl text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
+        class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
       >
         {{ displayedText[0] }}
       </h1>
     </div>
     <div
       v-if="displayedText[1]"
-      class="absolute sm:top-[18%] sm:left-[60%] top-[6%] left-[49%] sm:w-[20%] w-fit h-fit bg-black flex items-center justify-center sm:px-5 sm:py-2 px-2 py-1"
+      class="absolute lg:top-[18%] lg:left-[60%] md:top-[6%] md:left-[49%] top-[6%] left-[49%] lg:w-[20%] md:w-fit md:h-fit w-fit h-fit bg-black flex items-center justify-center lg:px-5 lg:py-2 px-2 py-1"
     >
       <h1
-        class="sm:text-8xl text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
+        class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
       >
         {{ displayedText[1] }}
       </h1>
     </div>
     <div
-      class="absolute sm:top-[60%] sm:left-[60%] top-[20%] left-[60%] sm:w-[30%] w-[30%]"
+      class="absolute lg:top-[60%] lg:left-[60%] md:top-[20%] md:left-[60%] top-[20%] left-[60%] lg:w-[30%] md:w-[30%] w-[30%]"
     >
-      <div class="w-fit h-fit bg-black float-left mr-2 sm:px-3 px-1 py-0">
+      <div class="w-fit h-fit bg-black float-left mr-2 lg:px-3 px-1 py-0">
         <span
           v-if="displayedText[2]"
-          class="sm:text-8xl text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
+          class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
           >A</span
         >
       </div>
       <p
-        class="text-justify sm:text-xl/10 text-[3vw] font-lancelot sm:tracking-widest tracking-tighter"
+        class="text-justify lg:text-xl/10 md:text-[2.7vw] text-[3vw] font-lancelot lg:tracking-widest md:tracking-tighter tracking-tighter"
       >
         {{ displayedText[2] }}
       </p>

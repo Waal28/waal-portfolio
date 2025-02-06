@@ -5,11 +5,7 @@
       class="flex transition-transform duration-500 ease-in-out"
       :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
     >
-      <div
-        v-for="(slide, index) in slides"
-        :key="index"
-        class="w-full flex-shrink-0"
-      >
+      <div v-for="(slide, index) in slides" :key="index" class="w-full flex-shrink-0">
         <img :src="slide" class="w-full h-fit rounded-lg" />
       </div>
     </div>
@@ -18,7 +14,7 @@
     <template v-if="slides.length > 1">
       <button
         @click="prevSlide"
-        class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white sm:p-2 p-1 rounded-full"
+        class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white lg:p-2 p-1 rounded-full"
       >
         ❮
       </button>
@@ -26,14 +22,12 @@
       <!-- Next Button -->
       <button
         @click="nextSlide"
-        class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white sm:p-2 p-1 rounded-full"
+        class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white lg:p-2 p-1 rounded-full"
       >
         ❯
       </button>
       <!-- Dots -->
-      <div
-        class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2"
-      >
+      <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
         <span
           v-for="(slide, index) in slides"
           :key="index"
@@ -65,8 +59,7 @@ const nextSlide = () => {
 };
 
 const prevSlide = () => {
-  currentIndex.value =
-    (currentIndex.value - 1 + props.slides.length) % props.slides.length;
+  currentIndex.value = (currentIndex.value - 1 + props.slides.length) % props.slides.length;
 };
 
 const goToSlide = (index) => {

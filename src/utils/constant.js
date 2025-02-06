@@ -1,38 +1,24 @@
-const walaundry = import.meta.glob(
-  '../assets/images/my-projects/walaundry/*.png',
-  {
-    eager: true,
-  }
-);
-const lancangkuning = import.meta.glob(
-  '../assets/images/my-projects/lancangkuning/*.png',
-  {
-    eager: true,
-  }
-);
-const echowallig = import.meta.glob(
-  '../assets/images/my-projects/echowallig/*.png',
-  {
-    eager: true,
-  }
-);
+const walaundry = import.meta.glob('../assets/images/my-projects/walaundry/*.png', {
+  eager: true,
+});
+const lancangkuning = import.meta.glob('../assets/images/my-projects/lancangkuning/*.png', {
+  eager: true,
+});
+const echowallig = import.meta.glob('../assets/images/my-projects/echowallig/*.png', {
+  eager: true,
+});
 const sismara = import.meta.glob('../assets/images/my-projects/sismara/*.png', {
   eager: true,
 });
-const buszilla = import.meta.glob(
-  '../assets/images/my-projects/buszilla/*.png',
-  {
-    eager: true,
-  }
-);
+const buszilla = import.meta.glob('../assets/images/my-projects/buszilla/*.png', {
+  eager: true,
+});
 const sipeje = import.meta.glob('../assets/images/my-projects/sipeje/*.png', {
   eager: true,
 });
 
 const walaundryImgs = Object.values(walaundry).map((img) => img.default);
-const lancangkuningImgs = Object.values(lancangkuning).map(
-  (img) => img.default
-);
+const lancangkuningImgs = Object.values(lancangkuning).map((img) => img.default);
 const echowalligImgs = Object.values(echowallig).map((img) => img.default);
 const sismaraImgs = Object.values(sismara).map((img) => img.default);
 const sipejeImgs = Object.values(sipeje).map((img) => img.default);
@@ -105,7 +91,7 @@ export const skills = [
   {
     name: 'nodejs',
     image: 'https://api.iconify.design/bx:bxl-nodejs.svg',
-    class: 'w-[6.9%] absolute top-[12.5%] sm:left-[89.3%] left-[89.3%]',
+    class: 'w-[6.9%] absolute top-[12.5%] lg:left-[89.3%] left-[89.3%]',
   },
   {
     name: 'javascript',
