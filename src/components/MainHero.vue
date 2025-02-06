@@ -46,7 +46,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
+import { ref, watch } from 'vue';
 import { useMainStore } from '../store/main';
 
 const mainStore = useMainStore();
@@ -74,13 +74,18 @@ function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-onMounted(async () => {
-  startTypewriter(100, 0);
-  await delay(700);
-  startTypewriter(50, 1);
-  await delay(1000);
-  startTypewriter(20, 2);
-});
+watch(
+  () => mainStore.isLoading,
+  async (newIsLoading, oldIsLoading) => {
+    if (newIsLoading === false) {
+      startTypewriter(100, 0);
+      await delay(700);
+      startTypewriter(50, 1);
+      await delay(1000);
+      startTypewriter(20, 2);
+    }
+  }
+);
 </script>
 
 <style scoped></style>
