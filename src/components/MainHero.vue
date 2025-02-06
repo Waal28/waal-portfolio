@@ -6,6 +6,12 @@
       class="w-full"
       @load="mainStore.onImageLoad"
     />
+    <img
+      src="/iwal.png"
+      alt="..."
+      class="lg:w-[35%] md:w-[35%] w-[60%] absolute z-30 lg:top-[10%] lg:left-[20%] md:top-[10%] md:left-[20%] top-[12%] left-[4%] filter grayscale-[30%]"
+      @load="mainStore.onImageLoad"
+    />
     <div
       v-if="displayedText[0]"
       class="absolute lg:top-[5%] lg:left-[18%] top-[3%] left-[18%] w-fit h-fit bg-black flex items-center justify-center lg:px-5 lg:py-2 px-2 py-1"

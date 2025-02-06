@@ -3,7 +3,7 @@ import { reactive, computed } from 'vue';
 
 export const useMainStore = defineStore('loading', () => {
   const state = reactive({
-    totalImages: 4, // Jumlah gambar yang perlu dimuat
+    totalImages: 5, // Jumlah gambar yang perlu dimuat
     loadedImages: 0, // Gambar yang sudah dimuat
   });
 
