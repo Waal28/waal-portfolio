@@ -60,8 +60,8 @@ export const projects = [
   {
     name: 'Sismara',
     image: sismaraImgs,
-    desc: 'An event portal and management system for the Faculty of Engineering at Universitas Islam Riau. Built with Next.js, Tailwind CSS, Material UI, and Firebase for seamless event organization.',
-    stack: ['Next.js', 'Tailwind CSS', 'Material UI', 'Firebase'],
+    desc: 'An event portal and management system for the Faculty of Engineering at Universitas Islam Riau. Built with Next.js, Material UI, and Firebase for seamless event organization.',
+    stack: ['Next.js', 'Material UI', 'Firebase'],
   },
   {
     name: 'Si Peje',
