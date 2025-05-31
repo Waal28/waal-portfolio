@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[url('/paper_bg.jpg')] bg-cover bg-repeat lg:p-6 md:px-6 md:py-4 px-6 py-2 relative"
+    class="bg-[url('/paper_bg_v2.jpg')] bg-cover bg-repeat lg:p-6 md:px-6 md:py-4 px-6 py-2 relative"
   >
     <main class="container mx-auto grid grid-cols-2">
       <section class="flex items-center">

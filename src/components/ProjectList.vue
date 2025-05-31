@@ -44,7 +44,7 @@
           >
             <div class="w-fit h-fit lg:mr-4 mr-2 bg-black flex items-center justify-center">
               <span
-                class="lg:w-12 md:w-7 w-5 lg:text-5xl md:text-[3.5vw] text-[5vw] lg:py-2 md:py-1 py-1 text-center font-sancreek font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
+                class="lg:w-12 md:w-7 w-5 lg:text-5xl md:text-[3.5vw] text-[5vw] lg:py-2 md:py-1 py-1 text-center font-sancreek font-bold text-transparent bg-clip-text bg-[url('/paper_bg_v2.jpg')] bg-repeat bg-cover"
                 >{{ index + 1 }}</span
               >
             </div>

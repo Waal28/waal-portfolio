@@ -17,7 +17,7 @@
       class="absolute lg:top-[5%] lg:left-[18%] top-[3%] left-[18%] w-fit h-fit bg-black flex items-center justify-center lg:px-5 lg:py-2 px-2 py-1"
     >
       <h1
-        class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
+        class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg_v2.jpg')] bg-repeat bg-cover"
       >
         {{ displayedText[0] }}
       </h1>
@@ -27,7 +27,7 @@
       class="absolute lg:top-[18%] lg:left-[60%] md:top-[6%] md:left-[49%] top-[6%] left-[49%] lg:w-[20%] md:w-fit md:h-fit w-fit h-fit bg-black flex items-center justify-center lg:px-5 lg:py-2 px-2 py-1"
     >
       <h1
-        class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
+        class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg_v2.jpg')] bg-repeat bg-cover"
       >
         {{ displayedText[1] }}
       </h1>
@@ -38,7 +38,7 @@
       <div class="w-fit h-fit bg-black float-left mr-2 lg:px-3 px-1 py-0">
         <span
           v-if="displayedText[2]"
-          class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg.jpg')] bg-repeat bg-cover"
+          class="lg:text-8xl md:text-[4vw] text-[4vw] font-emilysCandy font-bold text-transparent bg-clip-text bg-[url('/paper_bg_v2.jpg')] bg-repeat bg-cover"
           >A</span
         >
       </div>

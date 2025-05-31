@@ -6,7 +6,7 @@
       @click.self="closeModal"
     >
       <div
-        class="bg-[url('/paper_bg.jpg')] bg-repeat bg-contain rounded-2xl shadow-lg w-full lg:max-w-[80vw] max-w-[90vw] lg:p-10 p-4"
+        class="bg-[url('/paper_bg_v2.jpg')] bg-repeat bg-contain rounded-2xl shadow-lg w-full lg:max-w-[80vw] max-w-[90vw] lg:p-10 p-4"
       >
         <div class="flex justify-between items-center border-b border-gray-500 lg:pb-3 pb-2">
           <h2 class="font-sancreek lg:text-2xl md:text-[3.5vw] text-[3.5vw] tracking-wide">

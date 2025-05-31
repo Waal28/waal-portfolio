@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[url('/paper_bg.jpg')] bg-cover bg-repeat lg:px-6 lg:py-0 px-6 sticky top-0 z-50"
+    class="bg-[url('/paper_bg_v2.jpg')] bg-cover bg-repeat lg:px-6 lg:py-0 px-6 sticky top-0 z-50"
   >
     <div
       class="container mx-auto lg:grid flex justify-between grid-cols-3 items-center lg:py-5 py-3"
