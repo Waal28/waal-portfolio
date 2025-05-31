@@ -21,7 +21,7 @@ const mainStore = useMainStore();
     <FooterComp />
     <div
       :class="{ flex: mainStore.isLoading, hidden: !mainStore.isLoading }"
-      class="bg-[url('/paper_bg_v2.jpg')] bg-repeat bg-contain h-screen fixed top-0 left-0 right-0 bottom-0 z-50 items-center justify-center"
+      class="bg-[url('/paper_bg_v2.jpg')] bg-[#e8dfd8] bg-repeat bg-contain h-screen fixed top-0 left-0 right-0 bottom-0 z-50 items-center justify-center"
     >
       <GlobalLoader />
     </div>
