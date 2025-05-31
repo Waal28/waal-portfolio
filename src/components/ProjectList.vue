@@ -64,7 +64,7 @@
                 :src="project.image[0]"
                 :alt="project.name"
                 @click="openModal(project)"
-                class="lg:w-56 md:w-full w-full lg:border-2 border border-black lg:float-left float-none lg:mr-4 mr-2 lg:my-0 md:my-2 my-2 cursor-pointer transform filter grayscale hover:grayscale-0 duration-300 hover:scale-105"
+                class="lg:max-w-64 md:w-full w-full lg:border-2 border border-black lg:float-left float-none lg:mr-4 mr-2 lg:my-0 md:my-2 my-2 cursor-pointer transform filter grayscale hover:grayscale-0 duration-300 hover:scale-105"
               />
               <p
                 class="font-lancelot lg:text-lg md:text-[2.7vw] text-[3vw] text-justify lg:tracking-widest tracking-tighter lg:opacity-100 md:leading-[4vw]"
